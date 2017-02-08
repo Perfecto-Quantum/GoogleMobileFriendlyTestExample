@@ -7,6 +7,8 @@ Notes:
  - Google's API has been a little flaky, you can add retry
  - Google's API renders the page again in Google to do the analysis
 
+
+
 # Some backgroud about Google Mobile friendly test:
 https://testmysite.thinkwithgoogle.com/
 https://developers.google.com/webmaster-tools/search-console-api/reference/rest/v1/urlTestingTools.mobileFriendlyTest/run#teststatus
