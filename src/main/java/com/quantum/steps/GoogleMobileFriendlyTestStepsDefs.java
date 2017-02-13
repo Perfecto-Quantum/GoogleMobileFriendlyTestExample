@@ -58,7 +58,7 @@ public class GoogleMobileFriendlyTestStepsDefs {
 			HttpResponse httpResponse = request.setReadTimeout(70000).execute();
 
 			String content = httpResponse.parseAsString();
-			System.out.println("  Google Mobile Friendly Test Result  ");
+			System.out.println(" ======>>>>  Google Mobile Friendly Test Result  ");
 			System.out.println(content);
 			Validator.verifyThat(content, Matchers.equalTo("MOBILE_FRIENDLY"));
 		} catch (IOException | JSONException ex) {
